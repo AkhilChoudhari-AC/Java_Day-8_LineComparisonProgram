@@ -46,6 +46,7 @@ public class LineComparison {
             System.out.println("length of 1st end points are Less Than length of 2st end points ");
         else
             System.out.println("Both Line Are  Equal");
+        System.out.println(Double.compare(Length_Of_Line1, Length_Of_Line2));
     }
     public static void main(String[] args) {
         lineComparision();
